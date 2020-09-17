@@ -10,6 +10,7 @@ public class MyRestClass {
     
     @GetMapping
     public  String hello(){
+        System.out.println("######::::::::::::###########:::::::::Request Received##############");
         return "Hello World......";
     }
 }
